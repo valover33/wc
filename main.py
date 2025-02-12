@@ -11,12 +11,5 @@ def main():
         char_count += len(line)
     print("File has {0} lines, {1} words, {2} charcters".format(line_count, word_count, char_count))
 
-    r = 1
-    n = 5
-    while n > 0:
-        r = r * n
-        n = n - 1
-    print(r)
-
 if __name__ == '__main__':
     main()
